@@ -1,10 +1,12 @@
 import React from 'react';
 import { Text, View, AppRegistry } from 'react-native';
 
+import Header from './Components/Common/Header'
+
 const App = () => {
     return (
         <View>
-            <Text>Moola</Text>
+            <Header>Moola</Header>
         </View>
     );
 };
