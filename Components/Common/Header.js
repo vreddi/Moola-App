@@ -18,12 +18,12 @@ const Header = ({ children }) => {
 
 const styles = {
     containerStyles: {
-        backgroundColor: ColorPalette.LightGreen.G500,
+        backgroundColor: ColorPalette.Green.G500,
         justifyContent: 'center',
         alignItems: 'center',
         height: 60,
         paddingTop: 15,
-        shadowColor: ColorPalette.LightGreen.G700,
+        shadowColor: ColorPalette.Green.G700,
         shadowOffset: { width: 0, height: 6 },
         shadowOpacity: 0.3,
         elevation: 2,
